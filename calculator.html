@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trip Cost Calculator | WanderLux</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/calculator.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>Trip Cost Calculator</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="form-box">
+    <form onsubmit="return false;">
+      <label for="destination">Destination</label>
+      <select id="destination">
+        <option value="150">Bali</option>
+        <option value="200">Paris</option>
+        <option value="180">Dubai</option>
+      </select>
+
+      <label for="travellers">Number of Travellers</label>
+      <input type="number" id="travellers" required>
+
+      <label for="days">Number of Days</label>
+      <input type="number" id="days" required>
+
+      <label for="style">Travel Style</label>
+      <select id="style">
+        <option value="1">Budget</option>
+        <option value="1.5">Standard</option>
+        <option value="2">Luxury</option>
+      </select>
+
+      <button onclick="calculateCost()">Calculate Cost</button>
+      <p id="result"></p>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 WanderLux Travel Agency</p>
+</footer>
+
+</body>
+</html>
