@@ -1,0 +1,59 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: #0a3d62;
+  color: white;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 50px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form-box {
+  background: white;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+button {
+  background: #0a3d62;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.6s;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
