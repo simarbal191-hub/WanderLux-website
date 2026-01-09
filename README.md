@@ -1,0 +1,1 @@
+The WanderLux website has been built using traditional web-based development technologies for the front-end, which are HTML5, CSS3, and Javascript, because these technologies provide a broad range of flexibility, broad compatibility with different browsers, and support for creating responsive, accessible, and interactive web application(s).
